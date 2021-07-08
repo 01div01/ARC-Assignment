@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-08T03:36:57Z" name="Suite" finished-at="2021-07-08T03:38:09Z" duration-ms="71733">
+    <groups>
+    </groups>
+    <test started-at="2021-07-08T03:36:57Z" name="Test1" finished-at="2021-07-08T03:37:47Z" duration-ms="49957">
+      <class name="com.arc.assignment.AddCampuses">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.arc.assignment.AddCampuses@7161d8d1]" started-at="2021-07-08T03:36:57Z" name="setup" finished-at="2021-07-08T03:36:59Z" duration-ms="1766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="performLogin(java.util.HashMap)[pri:0, instance:com.arc.assignment.AddCampuses@7161d8d1]" started-at="2021-07-08T03:36:59Z" name="performLogin" data-provider="getData" finished-at="2021-07-08T03:37:13Z" duration-ms="13837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=123456, username=test.qa}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="addCampuses()[pri:0, instance:com.arc.assignment.AddCampuses@7161d8d1]" started-at="2021-07-08T03:37:13Z" name="addCampuses" description="Add Campus and verify the name" finished-at="2021-07-08T03:37:47Z" depends-on-methods="com.arc.assignment.AddCampuses.performLogin" duration-ms="34130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCampuses -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.arc.assignment.AddCampuses@7161d8d1]" started-at="2021-07-08T03:37:47Z" name="tearDown" finished-at="2021-07-08T03:37:47Z" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.arc.assignment.AddCampuses -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-07-08T03:37:47Z" name="Test2" finished-at="2021-07-08T03:38:09Z" duration-ms="21675">
+      <class name="com.arc.assignment.SearchCampusName">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.arc.assignment.SearchCampusName@16eb3ea3]" started-at="2021-07-08T03:37:47Z" name="setup" finished-at="2021-07-08T03:37:48Z" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="performLogin(java.util.HashMap)[pri:0, instance:com.arc.assignment.SearchCampusName@16eb3ea3]" started-at="2021-07-08T03:37:48Z" name="performLogin" data-provider="getData" finished-at="2021-07-08T03:37:57Z" duration-ms="9040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=123456, username=test.qa}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="searchCampus()[pri:0, instance:com.arc.assignment.SearchCampusName@16eb3ea3]" started-at="2021-07-08T03:37:57Z" name="searchCampus" description="Seach and Verify the Created Campus" finished-at="2021-07-08T03:38:09Z" depends-on-methods="com.arc.assignment.SearchCampusName.performLogin" duration-ms="11508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCampus -->
+      </class> <!-- com.arc.assignment.SearchCampusName -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

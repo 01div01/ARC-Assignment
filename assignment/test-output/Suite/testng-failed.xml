@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.arc.assignment.AddCampuses">
+        <methods>
+          <include name="performLogin"/>
+          <include name="setup"/>
+          <include name="addCampuses"/>
+        </methods>
+      </class> <!-- com.arc.assignment.AddCampuses -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
